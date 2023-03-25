@@ -1,6 +1,3 @@
-//go:build windows
-// +build windows
-
 package main
 
 import (
@@ -13,7 +10,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello World")
 
 	err, fl := fontloader.New()
 	checkErr(err)
